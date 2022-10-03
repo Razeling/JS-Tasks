@@ -13,6 +13,12 @@ turėti bent minimalų stilių ir būti responsive;
 
 const ENDPOINT = 'https://api.github.com/users';
 
+function removeButton(){
+    let removeBtn = document.getElementById('btn');
+    removeBtn.parentNode.removeChild(removeBtn);
+    return false
+}
+
 function printUsers() {
     output = document.getElementById('output')
     output.innerHTML = ""

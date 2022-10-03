@@ -57,5 +57,12 @@
   margin-top: 25px;
   padding: 30px;
   border-radius: 5px;
-  background-color: #fff;
+  background-color: #c9aa88;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  #output {
+    font-size: 2vw;
+  }
 }
