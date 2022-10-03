@@ -20,7 +20,7 @@ function printCarBrands() {
             let newDiv = document.createElement("div");
             newDiv.className = "Card";
             let newContent;
-            newDiv.innerHTML = 'Brand: ' + data[i].brand + '<br>' + 'Models:  ' + data[i].models + '<br><br>'
+            newDiv.innerHTML = 'Brand: ' + data[i].brand + '<br><br>' + 'Models:  ' + data[i].models + '<br><br>'
             output.appendChild(newDiv)
         }
     }

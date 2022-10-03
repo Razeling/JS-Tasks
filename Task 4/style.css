@@ -27,3 +27,25 @@
   margin-top: 50px;
   color: #333;
 }
+
+.Card {
+  border: solid 1px black;
+  margin-top: 1em;
+  display: flex;
+  padding: 1em;
+  max-width: 80vw;
+  background-color: #c9aa88;
+  word-wrap:break-word;
+}
+
+#output {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 600px) {
+  div.Card {
+    font-size: 2vw;
+  }
+}
